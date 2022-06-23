@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudo clases</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .menu {
+            background-color: #13a4a4;
+            padding: 10px 0;
+        }
+
+        .menu-nav {
+            margin: 0;
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        .menu-nav__item {
+            display: inline-block;
+        }
+
+        .menu-nav__item a {
+            color: #ffff;
+            text-decoration: none;
+
+        }
+
+        /*Seudo clases*/
+        .menu-nav__item a:hover {
+            color: red;
+        }
+
+        .menu-nav__item a:active {
+            color: blue;
+        }
+
+        /*Seudo elemento*/
+        .menu-nav__item a::after {
+            content: " | ";
+        }
+        /*Modelo de caja*/
+        main{
+            width: 100%;
+            height: 300px;
+            border: 10px solid gray;
+            padding: 20px 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="">Inicio</a></li>
+                <li class="menu-nav__item"><a href="">Trbajo</a></li>
+                <li class="menu-nav__item"><a href="">Blog</a></li>
+                <li class="menu-nav__item"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Hola mundo</h1>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi beatae totam et adipisci quos
+                    repellat eius, deserunt laborum, voluptate nam minima nulla provident porro numquam harum optio
+                    tempora, voluptatum illum?
+                </p>
+            </div>
+            <ul>
+                <li>item</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
