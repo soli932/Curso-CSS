@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+</head>
+<style>
+    body{
+        background: #f2f2f2;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    div{
+        margin: 20px 0;
+    }
+
+    .btn{
+        background: #2909df;
+        color: #f2f2f2;
+        font-size: 16px;
+        padding: 15px 20px;
+        margin: 0 10px;
+        border-style: none;
+
+    }
+    .btn:hover{
+        opacity: 0.8;
+        cursor: pointer;
+
+    }
+    /*Tamaño de botones*/
+    .small{
+        font-family: 10px;
+        padding: 10px 15px;
+    }
+    .medium{
+        font-family: 16px;
+        padding: 15px 20px;
+    }
+    .big{
+        font-family: 20px;
+        padding: 20px 25px;
+    }
+
+    /*Colores*/
+    .verde{
+        background: rgb(15, 226, 32);
+    }
+    .azul{
+        background: rgb(28, 9, 204);
+    }
+    .rojo{
+        background: rgb(226, 15, 15);
+    }
+    /*Redondear*/
+    .redondear{
+        border-radius: 30px;
+    }
+</style>
+<body>
+    <div>
+        <button class="btn">Boton Estandar</button>
+    </div>
+    <div>
+        <button class="btn small verde">Boton small</button>
+        <button class="btn medium azul">Boton medium</button>
+        <button class="btn big rojo">Boton big</button>
+    </div>
+    <div>
+        <button class="btn small verde redondear">Boton small</button>
+        <button class="btn medium azul redondear">Boton medium</button>
+        <button class="btn big rojo redondear">Boton big</button>
+    </div>
+</body>
+</html>
