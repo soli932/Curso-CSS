@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Float</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial;
+    }
+    .main{
+        background: rgb(165, 236, 165);
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        
+    }
+    .caja{
+        width: 500px;
+        height: 200px;
+        margin: 20px;
+        overflow: hidden;
+    }
+    .img{
+        float: left;
+        width: auto;
+    }
+    text{
+        float: left;
+    }
+    /*Estilos para articulos*/
+    .articulo{
+        background: rgb(114, 219, 210);
+        width: 500px;
+        margin: auto;
+        padding: 10px;
+    }
+    .articulo h2{
+        padding: 10px;
+        text-align: center;
+    }
+    .articulo img{
+        float: left;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <main class="main">
+        <div class="caja img">
+            <img src="https://loremflickr.com/g/320/240/paris" height="200">
+
+        </div>
+        <div class="caja text">
+            <h2>Soy un Encabezado</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, adipisci beatae. Sequi possimus
+                aspernatur at harum ut esse modi, dolorum voluptate asperiores, corporis, tempore maiores! Qui, quod.
+                Sunt, dolorem fuga?</p>
+        </div>
+
+    </main>
+    <article class="articulo">
+        <h2>Encanezado de articulo</h2>
+        <img src="https://loremflickr.com/g/320/240/paris" height="200">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam sed quos totam amet nulla non sapiente
+            quasi officia consequatur eos similique incidunt error neque doloremque, nobis quae dignissimos
+            exercitationem voluptatibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet, illum, placeat error libero
+            accusamus aliquid perspiciatis voluptate et tenetur quo facere modi eum? Laudantium consequuntur sint veniam
+            eius minima!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet, illum, placeat error libero
+            accusamus aliquid perspiciatis voluptate et tenetur quo facere modi eum? Laudantium consequuntur sint veniam
+            eius minima!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet, illum, placeat error libero
+            accusamus aliquid perspiciatis voluptate et tenetur quo facere modi eum? Laudantium consequuntur sint veniam
+            eius minima!</p>
+    </article>
+</body>
+
+</html>
