@@ -14,6 +14,13 @@ body{
   font-family: 'Roboto Mono' , sans-serif;
   font-size: 400;
 }
+.home-body{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 .header{
   width: 100%;
@@ -44,4 +51,69 @@ body{
 }
 .social-icons a:hover{
   color: #616161;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+.nav-logo{
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid #000;
+}
+
+.home-main{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url(../img/cover.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container{
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.main-container__text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.main-container__link{
+  background-color: #e6162e;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  height: 45px;
+}
+
+.main-container__link:hover{
+  background-color: #eb2513;
 }
