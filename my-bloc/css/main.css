@@ -263,3 +263,34 @@ footer p{
 .contact-info p {
   margin-top: 5px;
 }
+.profile{
+  padding: 70px 100px;
+  background-color: #e6e9ed;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.profile img{
+  width: 320px;
+  margin-right: 30px;
+}
+.projects-container{
+  padding: 0 80px 40px;
+}
+.projects-container h3{
+  border-bottom: 1px solid black;
+  padding: 70px 100px;
+  text-align: center;
+}
+.project{
+  display: inline-block;
+  padding: 15px;
+  max-width: 32%;
+  margin-bottom: 50px;
+}
+.project h4{
+  margin: 20px 0;
+}
+.project p{
+  margin-bottom: 35px;
+}
